@@ -1,0 +1,647 @@
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   THIS FILE FOR RESPONSIVE   |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+@media only screen and (max-width: 1280px){
+	.w-45 {
+		width: 48%;
+	}
+	
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 36px;
+	}
+	
+	.contend-area .demo-section {
+		background: url('../images/arrowBG.png') no-repeat 48% -1px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.header-area .menu-area {
+		width: 65%;
+		left: 20%;
+	}
+	
+	.contend-area .demo-section {
+		background: url('../images/arrowBG.png') no-repeat 48% -2px;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 39%;
+	}
+	
+	.w-45 {
+		width: 48%;
+	}
+	.contend-area .color-content .first-color {
+		height: 290px;
+	}
+	
+	.contend-area .color-content .second-color {
+		height: 290px;
+	}
+	
+	.w-60 {
+		width: 76%;
+	}
+	
+	.footer-area .logo {
+		margin: 60px 0;
+	}
+	
+	.footer-area .copyright p {
+		margin-bottom: 100px;
+	}
+ }
+/* THIS CSS FOR TABLET */
+@media only screen and (max-width: 834px) {
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 24px;
+	}
+	
+	.header-area .button {
+		left: 31%;
+	}
+	
+	.contend-area .client-image {
+		left: 41%;
+	}
+	
+	.contend-area .more-review {
+		left: 44%;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 37%;
+	}
+	
+	.contend-area .color-content .color-title h6 {
+		font-size: 13px;
+		letter-spacing: 1px;
+		padding: 22px 13px 0;
+	}
+	
+	.contend-area .color-content .color-title p {
+		padding: 14px 16px 23px 17px;
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 22px;
+	}
+	
+	.contend-area .color-content .color-title h6 {
+		font-size: 12px;
+	}
+	
+	.header-area .header-content p {
+		font-size: 15px;
+	}
+	
+	.contend-area .demo-section p {
+		word-spacing: -1px;
+	}
+	
+	.contend-area .color-content .some-text h1 {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.header-area .menu-area {
+		width: 86%;
+		left: 8%;
+	}
+	
+	.header-area .header-content p {
+		font-size: 15px;
+	}
+	
+	.header-area .button a {
+		padding: 18px 60px;
+		letter-spacing: 1px;
+	}
+	
+	.header-area .button {
+		left: 33%;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 36%;
+	}
+	
+	.contend-area .color-content .first-color {
+		height: 200px;
+	}
+	
+	.contend-area .color-content .second-color {
+		height: 200px;
+	}
+	
+	.contend-area .color-content .spes {
+		padding-right: 10px;
+	}
+	
+	.contend-area .color-content .color-title h6 {
+		font-size: 11px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		padding: 10px 20px 0;
+	}
+	
+	.contend-area .color-content .color-title p {
+		padding: 10px 5px 18px 22px;
+		font-size: 11px;
+	}
+	
+	.contend-area .color-content .some-text h1 {
+		font-size: 21px;
+	}
+	
+	.contend-area .color-content .some-text p {
+		line-height: 22px;
+		font-size: 12px;
+	}
+	
+	.w-60 {
+		width: 88%;
+	}
+	
+	.footer-area .footer-content .first-p {
+		line-height: 22px;
+		padding-right: 160px;
+		font-size: 13px;
+	}
+	
+	.footer-area .footer-content .second-p {
+		line-height: 22px;
+		padding-right: 22px;
+		font-size: 13px;
+	}
+	
+	.footer-area .footer-menus a {
+		font-size: 10px;
+	}
+	
+	.footer-area .footer-menus li {
+		margin-bottom: 0;
+	}
+	
+	.footer-area .logo {
+		margin: 40px 0;
+	}
+	
+	.footer-area .copyright p {
+		font-size: 10px;
+		letter-spacing: 2px;
+		margin-bottom: 80px;
+	}
+	
+	.contend-area .client-review h1 {
+		font-size: 30px;
+	}
+	
+	.contend-area .more-review {
+		left: 44%;
+	}
+	
+	.contend-area .client-image {
+		left: 40%;
+	}
+	
+	.contend-area .download-section h1 {
+		font-size: 35px;
+	}
+	
+	.contend-area .download-section p {
+		line-height: 1.3;
+	}
+	
+	.contend-area .download-section p {
+		margin-top: 35px;
+		line-height: 1.3;
+	}
+	
+	.contend-area .download-section {
+		background: #e8b968 url('../images/ipadBG.png') no-repeat right  52px/ 46%;
+		padding: 70px 0;
+	}
+	
+	.contend-area .client-review-section {
+		background: url('../images/tBG01.jpg') no-repeat left center / cover;
+		padding: 10px 0;
+	}
+	
+	.contend-area .demo-section p {
+		word-spacing: -3px;
+	}
+
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 39px;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 36px;
+	}
+	
+	.header-area .header-content p {
+		font-size: 14px;
+	}
+	
+	.contend-area .more-review {
+		width: 12%;
+		left: 43%;
+	}
+	
+	.contend-area .color-content .color-title h6 {
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 640px) { 
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 26px;
+	}
+	
+	.contend-area .demo-section p {
+		padding-right: 25px;
+	}
+	.w-45 {
+		width: 47%;
+	}
+}
+/* THIS CSS FOR MOBILE DISPLAY */
+@media only screen and (max-width: 425px) {
+	.header-area {
+		background: url('../images/hero.jpg') no-repeat center center / cover;
+		padding: 0;
+	}
+	
+	.header-area .menu-area {
+		width: 100%;
+		left: 0%;
+	}
+	
+	.header-area .menu-area nav > ul > li {
+		margin-left: 0;
+	}
+	
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 11px;
+	}
+	
+	.header-area .header-content h1 {
+		font-size: 40px;
+	}
+	
+	.header-area .header-content p {
+		font-size: 14px;
+	}
+	
+	.header-area .play-icon {
+		left: 38%;
+	}
+	
+	.header-area .button {
+		left: 20%;
+		bottom: 65px;
+	}
+	
+	.contend-area .download-section h1 {
+		font-size: 32px;
+	}
+	
+	.contend-area .download-section p {
+		margin-top: 20px;
+		line-height: 1.1;
+	}
+	
+	.contend-area .download-section {
+		background: #e8b968 url('../images/ipadBG.png') no-repeat 200px  108px/ 65%;
+		padding: 40px 0;
+	}
+	
+	.contend-area .download-section a {
+		padding: 15px 22px;
+		margin: 12px 0;
+		font-size: 17px;
+		letter-spacing: 1px;
+	}
+	
+	.contend-area .client-image {
+		left: 34%;
+	}
+	
+	.contend-area .client-review h1 {
+		font-size: 24px;
+	}
+	
+	.contend-area .more-review {
+		left: 43%;
+		width: 20%;
+	}
+	
+	.contend-area .demo-section {
+		background: url('../images/arrowBG.png') no-repeat 51% -2px;
+	}
+	
+	.w-45 {
+		width: 100%;
+		float: none;
+	}
+	
+	.contend-area .demo-section .border-line {
+		border-right: none;
+	}
+	.contend-area .demo-section .mrgn {
+		padding-left: 0;
+	}
+	
+	.contend-area .demo-section .right-content {
+		padding-left: 0;
+	}
+	
+	.contend-area .demo-section p {
+		font-size: 16px;
+		word-spacing: 1px;
+		line-height: 25px;
+		margin-bottom: 50px;
+		text-align: left;
+		padding-right: 0;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		position: relative;
+		left: 28%;
+		margin: 35px 0 30px;
+	}
+	
+	.w-30 {
+		width: 100%;
+		float: none;
+	}
+	
+	.contend-area .color-content {
+		padding: 65px 0 65px 15px;
+	}
+	
+	.contend-area .color-content .first-color {
+		height: 300px;
+	}
+	
+	.contend-area .color-content .second-color {
+		height: 300px;
+	}
+	
+	.contend-area .color-content .color-title h6 {
+		font-size: 15px;
+		letter-spacing: 2px;
+		padding: 20px 30px 0;
+		font-weight: 600;
+	}
+	
+	.contend-area .color-content .color-title p {
+		padding: 17px 5px 22px 30px;
+		font-size: 16px;
+	}
+	
+	.contend-area .color-content .some-text h1 {
+		font-size: 36px;
+	}
+	
+	.contend-area .color-content .some-text p {
+		font-size: 14px;
+	}
+	
+	.contend-area .color-content .some-text p {
+		font-size: 15px;
+	}
+	
+	.contend-area .slider-button .img-wraper img {
+		width: 35%;
+	}
+	
+	.contend-area .slider-button .img-wraper {
+		width: 15%;
+		position: relative;
+		left: 45%;
+		float: none;
+	}
+	
+	.footer-area {
+		background: #7accc8;
+		padding: 35px 0;
+	}
+	
+	.w-80 {
+		width: 100%;
+		float: none;
+	}
+	
+	.w-20 {
+		width: 100%;
+		float: none;
+	}
+	
+	.w-60 {
+		width: 100%;
+		float: none;
+	}
+	
+	.w-40 {
+		width: 100%;
+		float: none;
+	}
+	
+	.footer-area .footer-content .first-p {
+		line-height: 20px;
+		padding-right: 0;
+		font-size: 14px;
+	}
+	
+	.footer-area .footer-content .spes {
+		margin-left: 0;
+	}
+	
+	.footer-area .footer-content .second-p {
+		line-height: 20px;
+		padding-right: 0;
+		font-size: 14px;
+	}
+	
+	.footer-area .footer-menus ul {
+		padding: 0;
+	}
+	
+	.footer-area .footer-menus li {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	.footer-area .footer-menus a {
+		font-size: 14px;
+		font-weight: 600;
+	}
+	
+	.footer-area .logo {
+		left: 43%;
+	}
+	
+	.footer-area .copyright p {
+		font-size: 14px;
+		letter-spacing: 2px;
+		margin-bottom: 60px;
+	}
+}
+@media only screen and (max-width: 414px) { 
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 8px;
+	}
+	.contend-area .download-section {
+		background: #e8b968 url('../images/ipadBG.png') no-repeat 200px  108px/ 65%;
+		padding: 40px 0;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.contend-area .download-section {
+		background: #e8b968 url('../images/ipadBG.png') no-repeat 173px  124px/ 75%;
+		padding: 40px 0;
+	}
+	
+	.header-area .menu-area nav > ul > li > a {
+		font-size: 14px;
+		padding: 16px 10px;
+	}
+	
+	.header-area .button {
+		left: 16%;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 25%;
+	}
+	
+	.footer-area .logo {
+		left: 40%;
+	}
+	
+	.footer-area .copyright p {
+		font-size: 13px;
+	}
+	
+	.contend-area .slider-button .img-wraper {
+		left: 42%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.contend-area .download-section {
+		background: #e8b968 url('../images/ipadBG.png') no-repeat 187px  108px/ 65%;
+		padding: 40px 0;
+	}
+	
+	.header-area .menu-area nav > ul > li > a {
+		padding: 16px 8px;
+	}
+	
+	.contend-area .download-section h1 {
+		font-weight: 300;
+	}
+	.header-area .menu-area nav {
+		padding: 16px 8px;
+	}
+	
+	.header-area .play-icon {
+		left: 34%;
+	}
+	
+	.header-area .button {
+		left: 13%;
+	}
+	
+	.contend-area .client-image {
+		left: 30%;
+	}
+	
+	.contend-area .client-review h1 {
+		font-size: 19px;
+	}
+	
+	.contend-area .more-review {
+		left: 43%;
+		width: 25%;
+	}
+	
+	.contend-area .more-review img {
+		width: 10px;
+		margin: 40px 5px 75px 0;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 23%;
+	}
+	
+	.contend-area .slider-button .img-wraper {
+		left: 39%;
+	}
+	
+	.contend-area .slider-button .img-wraper img {
+		width: 46%;
+	}
+	
+	.footer-area .copyright p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.header-area .menu-area nav > ul > li > a {
+		font-size: 13px;
+		padding: 16px 5px;
+	}
+	
+	.header-area .play-icon {
+		left: 32%;
+	}
+	
+	.header-area .button {
+		left: 16%;
+	}
+	
+	.header-area .button a {
+		padding: 10px 29px;
+	}
+	
+	.contend-area .download-section a {
+		padding: 9px 9px;
+	}
+	
+	.contend-area .client-image {
+		left: 28%;
+	}
+	
+	.contend-area .more-review {
+		left: 40%;
+		width: 25%;
+	}
+	
+	.contend-area .more-review img {
+		width: 11px;
+	}
+	
+	.contend-area .demo-section .demo-button {
+		left: 20%;
+	}
+	
+	.contend-area .color-content .some-text h1 {
+		font-size: 28px;
+	}
+	
+	.footer-area .copyright p {
+		font-size: 11px;
+	}
+}
